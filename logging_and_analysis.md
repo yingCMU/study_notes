@@ -77,6 +77,7 @@ show that this process requires traces of hundreds
 of thousands of requests to converge on a model.
 #### UberTrace details
 **Schema**
+
 UberTrace requires that log messages contain at least:
 1. A unique request identifier.
 2. The executing computer (e.g., the client or a particular
@@ -87,6 +88,7 @@ computer
 5. A task name, where a task is defined to be a distributed
 thread of control.
 **Assumption**
+
 UberTrace requires that each <event, task> tuple is
 unique, which implies that there are no cycles that would
 cause a tuple to appear multiple times. Although this
