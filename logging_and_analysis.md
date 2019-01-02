@@ -19,7 +19,7 @@ we study in this paper.
 happens-before, mutual exclusive, and first-in-first-out relationships
 
 causal_relationship:
-![alt text][causal_relationship](./images/causal_relationship.png "causal_relationship")
+![alt text](./images/causal_relationship.png "causal_relationship")
 
 Causal Relationships. This figure depicts examples
 of the three kinds of causal relationship we consider. Happensbefore
